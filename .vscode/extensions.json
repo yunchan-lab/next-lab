@@ -1,12 +1,13 @@
 {
-    "recommendations": [
-        "aaron-bond.better-comments",
-        "streetsidesoftware.code-spell-checker",
-        "dbaeumer.vscode-eslint",
-        "mhutchie.git-graph",
-        "eamodio.gitlens",
-        "oderwat.indent-rainbow",
-        "pkief.material-icon-theme",
-        "esbenp.prettier-vscode"
-    ]
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "prisma.prisma"
+  ]
 }
