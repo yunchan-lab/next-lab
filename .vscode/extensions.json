@@ -8,6 +8,7 @@
     "oderwat.indent-rainbow",
     "pkief.material-icon-theme",
     "esbenp.prettier-vscode",
-    "prisma.prisma"
+    "prisma.prisma",
+    "bradlc.vscode-tailwindcss"
   ]
 }

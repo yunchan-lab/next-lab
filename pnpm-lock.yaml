@@ -8,6 +8,15 @@ dependencies:
   '@prisma/client':
     specifier: ^5.11.0
     version: 5.11.0(prisma@5.11.0)
+  '@tanstack/react-query':
+    specifier: ^5.28.6
+    version: 5.28.6(react@18.2.0)
+  '@tanstack/react-query-devtools':
+    specifier: ^5.28.6
+    version: 5.28.6(@tanstack/react-query@5.28.6)(react@18.2.0)
+  '@tanstack/react-query-next-experimental':
+    specifier: ^5.28.6
+    version: 5.28.6(@tanstack/react-query@5.28.6)(next@14.1.4)(react@18.2.0)
   next:
     specifier: 14.1.4
     version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
@@ -338,6 +347,46 @@ packages:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
     dependencies:
       tslib: 2.6.2
+    dev: false
+
+  /@tanstack/query-core@5.28.6:
+    resolution: {integrity: sha512-hnhotV+DnQtvtR3jPvbQMPNMW4KEK0J4k7c609zJ8muiNknm+yoDyMHmxTWM5ZnlZpsz0zOxYFr+mzRJNHWJsA==}
+    dev: false
+
+  /@tanstack/query-devtools@5.28.6:
+    resolution: {integrity: sha512-DXJGqbrsteWU9XehDf6s3k3QxwQqGUlNXpitsF1xbwkYBcDaAakiC6hjJSMfPBHOrbZCnWfAGCVf4vh2D75/xw==}
+    dev: false
+
+  /@tanstack/react-query-devtools@5.28.6(@tanstack/react-query@5.28.6)(react@18.2.0):
+    resolution: {integrity: sha512-xSfskHlM2JkP7WpN89UqhJV2RbFxg8YnOMzQz+EEzWSsgxMI5Crce8HO9pcUAcJce8gSmw93RQwuKNdG3FbT6w==}
+    peerDependencies:
+      '@tanstack/react-query': ^5.28.6
+      react: ^18.0.0
+    dependencies:
+      '@tanstack/query-devtools': 5.28.6
+      '@tanstack/react-query': 5.28.6(react@18.2.0)
+      react: 18.2.0
+    dev: false
+
+  /@tanstack/react-query-next-experimental@5.28.6(@tanstack/react-query@5.28.6)(next@14.1.4)(react@18.2.0):
+    resolution: {integrity: sha512-KHTR1nGChTXk/kELit2gaqF3cQuN68F5UJv0377Gz5DnllPnBegja6if2W9KtKxm3Z1xP0j8LQXplqlqny2SYw==}
+    peerDependencies:
+      '@tanstack/react-query': ^5.28.6
+      next: ^13 || ^14
+      react: ^18.0.0
+    dependencies:
+      '@tanstack/react-query': 5.28.6(react@18.2.0)
+      next: 14.1.4(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+    dev: false
+
+  /@tanstack/react-query@5.28.6(react@18.2.0):
+    resolution: {integrity: sha512-/DdYuDBSsA21Qbcder1R8Cr/3Nx0ZnA2lgtqKsLMvov8wL4+g0HBz/gWYZPlIsof7iyfQafyhg4wUVUsS3vWZw==}
+    peerDependencies:
+      react: ^18.0.0
+    dependencies:
+      '@tanstack/query-core': 5.28.6
+      react: 18.2.0
     dev: false
 
   /@types/json5@0.0.29:

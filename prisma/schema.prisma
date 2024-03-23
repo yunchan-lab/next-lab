@@ -9,8 +9,6 @@ generator client {
 
 model todo {
   id        String    @id @default(auto()) @map("_id") @db.ObjectId
-  title     String    
-  contents  String
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
+  task  String
+  isCompleted Boolean @default(false)
 }
